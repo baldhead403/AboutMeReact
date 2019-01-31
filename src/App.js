@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-// import profile_pic from './Images/profile_pic.jpg'
+import { Button } from 'reactstrap';
 import Title from './Components/Title';
-// import Profile from './Components/Profile'
+import Profile from './Components/Profile'
 
 class App extends Component {
   render() {
@@ -15,23 +15,14 @@ class App extends Component {
           {/* <img src={require()}/> */}
         </div>  
         </header>
+        <div>
+        <Profile/>
+      </div>
       </div>
     );
   }
 }
-// class Info extends Component{
-//   render(){
-//     return(
-//       <body>
 
-//       <div>
-//         <Title/>
-//         {/* <img src={require()}/> */}
-//       </div>
-//       </body>
-//     )
-//   }
-// }
 
 
 export default App;

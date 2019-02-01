@@ -23,15 +23,18 @@ class App extends Component {
         </div>
 
         <div className="row">
-          <div className="col" id="pcrepair">
+        <div className="col-sm-2" >
+             
+          </div>
+          <div className="col-sm-4" id="pcrepair">
               <h4>
                 PC Repair and Maintainance
               </h4>
           <img src={require('./Images/remote-support.jpg')}/>
           </div>
-          <div className="col" id="pcrepair">
+          <div className="col-sm-4" id="network">
               <h4>
-                Networ Technician
+                Network Technician
               </h4>
           <img src={require('./Images/computer-networking.jpg')}/>
           </div>

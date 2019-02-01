@@ -41,6 +41,7 @@ p{
   font-size: 30px;
   color: black;
 }
+
 #profile-body{
   min-height: 20vh;
   display: flex;
@@ -49,8 +50,10 @@ p{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   border: 3px solid black;
+  background-color: darkgray;
 }
 .profile-head{
+  
   font-family: initial;
   margin-top: 20px;
   min-height: 20vh;

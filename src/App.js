@@ -17,13 +17,28 @@ class App extends Component {
           </div>  
         </header>
         <div>
-          <img src={require('./Images/remote-support.jpg')}/>
-        </div>
-        <div>
           <header className="profile-head">
               <Profile/>
           </header>
         </div>
+
+        <div className="row">
+          <div className="col" id="pcrepair">
+              <h4>
+                PC Repair and Maintainance
+              </h4>
+          <img src={require('./Images/remote-support.jpg')}/>
+          </div>
+          <div className="col" id="pcrepair">
+              <h4>
+                Networ Technician
+              </h4>
+          <img src={require('./Images/computer-networking.jpg')}/>
+          </div>
+          
+
+        </div>
+
         <div>
           <header>
 

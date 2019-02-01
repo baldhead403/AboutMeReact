@@ -4,8 +4,8 @@ class Title extends Component {
     render(){
         return(
             <div>
-                <h1>Donald Rivers</h1>
-                <p>Full Stack Web Developer In Transition</p>
+                <h1 id="name">Donald Rivers</h1>
+                <p>Software Developer</p>
                  
             </div>
         )

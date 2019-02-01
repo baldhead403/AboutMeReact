@@ -8,8 +8,10 @@
 }
 
 .App-header {
-  background-color:black;
-  min-height: 20vh;
+  background-image: url('./Images/software.jpg');
+  background-size: cover;
+  background-repeat: round;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,9 +37,31 @@ img {
   border-radius: 50%
 }
 p{
-  color: crimson
+  font-family: initial;
+  font-size: 30px;
+  color: black;
 }
 #profile-body{
-  
-  background-color: darkgray;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  border: 3px solid black;
+}
+.profile-head{
+  font-family: initial;
+  margin-top: 20px;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+#name{
+  color:black;
+  font-size: 60px;
+  font-family: initial;
 }

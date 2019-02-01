@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faIgloo } from '@fortawesome/free-solid-svg-icons'
 import Footer from './Components/Footer'
 import Title from './Components/Title';
@@ -17,6 +16,9 @@ class App extends Component {
             <Title/>
           </div>  
         </header>
+        <div>
+          <img src={require('./Images/remote-support.jpg')}/>
+        </div>
         <div>
           <header className="profile-head">
               <Profile/>

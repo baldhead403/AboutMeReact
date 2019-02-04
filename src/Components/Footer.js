@@ -9,9 +9,10 @@ const Footer = (props) => {
           <CardText> Donald Rivers</CardText>
           <CardText> Email: donaldrivers76@gmail.com </CardText>
           <CardText> 404-341-8362 </CardText>
-          
         </Card>
       </Col>
+    
+    
       <Col sm="4">
         <Card body id="links">
           <CardTitle>Follow Me</CardTitle>
@@ -22,6 +23,7 @@ const Footer = (props) => {
         </Card>
       </Col>
     </Row>
+   
   );
 };
 

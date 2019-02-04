@@ -10,9 +10,9 @@ class Profile extends Component {
                     <div className="col">
                         <div className="col" id="profile-body">
 
-                            <h1> ABOUT ME</h1>
+                            <h1 className="font-effect-3d" id="profile-title"> ABOUT ME</h1>
                                 <div id="profile-text">
-                                    <h4>
+                                    <h4  id="text-body">
                                     Experienced Junior Software Developer with a demonstrated history of working in the non-profit organization management industry. 
                                     Skilled in Microsoft Client, Microsoft Server Administrator, Linux Server Adminstrator, Mobile Application Development, Web Application Development, 
                                     Oracle Database, SQL, NoSQL, Cisco Network Administrator, PC and Network Technician, Analytical Skills, and Accounting. 

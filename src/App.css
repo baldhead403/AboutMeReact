@@ -3,8 +3,7 @@
 }
 .App-header {
   color: white;
-  background-image: url('./Images/software.jpg');
-  /* background-image: url('./Images/softDev.jpg'); */
+  background-image: url('./Images/softDev.jpg');
   background-size: cover;
   background-repeat: round;
   border: 3px solid black;
@@ -15,6 +14,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   
+  
 }
 
 .App-link {
@@ -22,10 +22,10 @@
 }
 
 #title{
-  
+  font-family: Kaushan Script;
   font-size: 30px;
-  color:red;
-  text-shadow: 2px 2px black;
+  color:blue;
+  
 }
 
 #profile-body{
@@ -35,17 +35,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(24px + 2vmin);
-  border: 3px solid black;
-  color:black;
-  /* text-shadow: 2px 2px white; */
-  
+ 
+
 }
 .profile-head{
   background-repeat: round;
   background-size: cover;
-  background-blend-mode: color-burn;
-  background-image: url('./Images/softDev.jpg');
-  font-family: initial;
+  font-family: Kaushan Script;
   margin-top: 20px;
   margin-bottom: 10px;
   min-height: 20vh;
@@ -55,49 +51,56 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   
+  
 }
 #name{
   align-items: center;
-  color:white;
+  color:blue;
   font-size: 60px;
-  /* font-family: fantasy; */
-  text-shadow: 2px 2px black;
+  font-family: Kaushan Script;
+ 
 }
 #links{
   display: inline-block;
 
 }
 Row{
-  font-family: initial;
+  font-family: Kaushan Script;
 }
 p{
-  font-family: fantasy;
+  font-family: Kaushan Script;
   font-size: 20px;
 }
 .card-title{
-  font-family: fantasy;
+  font-family: Kaushan Script;
   font-size: 24px;
 }
 #pcrepair{
-  font-family: fantasy;
-  border: 1px solid black;
+  font-family: Kaushan Script;
+  /* border: 1px solid black; */
   margin: 1px;
+  color: blue;
 }
 #network{
-  font-family: fantasy;
-  border: 1px solid black;
+  font-family: Kaushan Script;
+  /* border: 1px solid black; */
   margin: 1px;
+  color: blue;
 } 
 #programs{
-  font-family: fantasy;
+  font-family: Kaushan Script;
   padding-top: 2px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 1px;
-  
+  color: blue;
 } 
-#profile-text{
-  fill-opacity: initial;
-  opacity: .7;
-  background-color:yellpw;
+#text-body{
+  color: black;
 }
+#profile-title{
+  color: black;
+  text-underline-position: below;
+}
+ 
+
 

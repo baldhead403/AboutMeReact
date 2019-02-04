@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="font-effect-3d">
+          <div className="">
             <Title/>
           </div>  
         </header>
@@ -23,27 +23,27 @@ class App extends Component {
         </div>
 
         <div className="row">
-        <div className="col" id="programs">
-        <img src={require('./Images/programming.jpg')}/>
-          <h4>
-            Computer Programmer
-          </h4>
+          <div className="col font-effect-3d" id="programs">
+            <img src={require('./Images/programming.jpg')} alt=""/>
+              <h4>
+                Computer Programmer
+              </h4>
           </div>
-          <div className="col " id="pcrepair">
-          <img src={require('./Images/remote-support.jpg')}/>
+          <div className="col font-effect-3d" id="pcrepair">
+            <img src={require('./Images/remote-support.jpg')} alt=""/>
               <h4>
                 PC Repair and Maintainance
               </h4>
           </div>
-          <div className="col" id="network">
-          <img src={require('./Images/computer-networking.jpg')}/>
+          <div className="col font-effect-3d" id="network">
+            <img src={require('./Images/computer-networking.jpg')} alt=""/>
               <h4>
                 Network Technician
               </h4>
           </div>
+        </div>
           
 
-        </div>
 
         <div>
           <header>

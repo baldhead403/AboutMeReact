@@ -3,7 +3,8 @@
 }
 .App-header {
   color: white;
-  background-image: url('./Images/softDev.jpg');
+  background-image: url('./Images/software.jpg');
+  /* background-image: url('./Images/softDev.jpg'); */
   background-size: cover;
   background-repeat: round;
   border: 3px solid black;
@@ -21,7 +22,7 @@
 }
 
 #title{
-  font-family: initial;
+  
   font-size: 30px;
   color:red;
   text-shadow: 2px 2px black;
@@ -33,16 +34,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(24px + 2vmin);
   border: 3px solid black;
-  background-image: url('./Images/software.jpg');
-  background-repeat: round;
-  background-size: cover;
-  color:red;
-  text-shadow: 2px 2px black;
+  color:black;
+  /* text-shadow: 2px 2px white; */
+  
 }
 .profile-head{
-  
+  background-repeat: round;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  background-image: url('./Images/softDev.jpg');
   font-family: initial;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -52,12 +54,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  
 }
 #name{
   align-items: center;
-  color:red;
+  color:white;
   font-size: 60px;
-  font-family: initial;
+  /* font-family: fantasy; */
   text-shadow: 2px 2px black;
 }
 #links{
@@ -68,19 +71,33 @@ Row{
   font-family: initial;
 }
 p{
-  font-family: initial;
+  font-family: fantasy;
   font-size: 20px;
 }
 .card-title{
-  font-family: initial;
+  font-family: fantasy;
   font-size: 24px;
 }
 #pcrepair{
+  font-family: fantasy;
   border: 1px solid black;
-  margin: 10px
+  margin: 1px;
 }
 #network{
-  
+  font-family: fantasy;
   border: 1px solid black;
-  margin: 10px
+  margin: 1px;
+} 
+#programs{
+  font-family: fantasy;
+  padding-top: 2px;
+  border: 1px solid black;
+  margin: 1px;
+  
+} 
+#profile-text{
+  fill-opacity: initial;
+  opacity: .7;
+  background-color:yellpw;
 }
+
